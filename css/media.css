@@ -1,0 +1,104 @@
+@media all and (max-width:1200px) {
+  nav li a,
+  nav  .sign_up_btn{
+    font-size: smaller !important;
+  }
+
+  .navbar-brand{
+    font-size: 30px;
+  }
+  nav li {
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 5px 0 5px 0
+  }
+
+  .special-area__cards>.card{
+    width: 290px;
+  }
+
+  #video-box{
+    height: 550px;
+  }
+
+}
+
+@media all and (max-width:992px) {
+  .area__title{
+    font-size: 35px
+  }
+  .special-area__cards>.card{
+    width: 210px;
+  }
+  #video-box{
+    height: 350px;
+  }
+
+  .contact__plain_text{
+    margin: 40px 0;
+  }
+ }
+
+@media all and (max-width:768px) {
+ .area__title{
+   font-size: 30px
+ }
+ .special-area__cards{
+   margin: 0 auto;
+   flex-direction: column;
+   justify-content: center;
+   
+ }
+ .special-area__cards>.card{
+  width: 510px;
+  }
+
+  #video-box{
+    height: 250px;
+  }
+}
+
+
+@media all and (max-width:576px) {
+  .wellcome_card .card-title{
+    font-size: 4.0rem;
+  }
+
+  .special-area__cards>.card{
+    width: 90%;
+  }
+
+  #video-box{
+    height: 250px;
+  }
+
+  #carouselTwo{
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .grid-box div{
+    font-size:25px;  
+  }
+}
+
+
+/* aling height of all photos */
+@media all and (min-width:1200px) {
+  #team-area .team-item img{
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px){
+  #team-area .team-item img{
+    height: 140px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  #team-area .team-item img{
+    height: 220px;
+  }
+}
